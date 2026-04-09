@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Data (VERY IMPORTANT)
+data/
+outputs/
+
+# Audio files
+*.wav
+*.mp3
+
+# Models
+*.pth
+*.pt
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment
+env/
+speech_env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.tar
+*.gz
