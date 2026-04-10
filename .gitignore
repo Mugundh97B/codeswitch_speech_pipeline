@@ -2,13 +2,19 @@
 __pycache__/
 *.pyc
 
-# Data (VERY IMPORTANT)
-data/
-outputs/
+# Ignore heavy raw data
+data/raw/
+data/processed/
 
-# Audio files
-*.wav
-*.mp3
+# Allow ONLY required submission audio
+!original_segment.wav
+!student_voice_ref.wav
+!output_LRL_cloned.wav
+
+# Outputs (ignore temporary)
+outputs/*
+!outputs/final_output.mp3
+!outputs/speaker_embedding.pt
 
 # Models
 *.pth
