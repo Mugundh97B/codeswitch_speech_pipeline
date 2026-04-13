@@ -72,12 +72,6 @@ codeswitch_speech_pipeline/
 ├── speech_understanding.ipynb
 ├── src
 │   ├── lid
-│   │   ├── __pycache__
-│   │   │   ├── auto_label.cpython-310.pyc
-│   │   │   ├── create_labels.cpython-310.pyc
-│   │   │   ├── feature_extraction.cpython-310.pyc
-│   │   │   ├── model.cpython-310.pyc
-│   │   │   └── predict.cpython-310.pyc
 │   │   ├── auto_label.py
 │   │   ├── create_labels.py
 │   │   ├── feature_extraction.py
